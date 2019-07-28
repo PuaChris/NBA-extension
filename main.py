@@ -1,6 +1,6 @@
 """ 
-* CREATED BY: CHRIS PUA, JULY 27, 2019
-* Sample file to use BeautifulSoup and requests library, and to         import to CSV files.
+* CREATED BY: CHRIS PUA - JULY 27, 2019
+* Sample file to use BeautifulSoup and requests library, and to import to CSV files.
 * Just run main.py on terminal to see all functionality.
 """
 
