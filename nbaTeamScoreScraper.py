@@ -10,8 +10,8 @@ headers = {
     'User-Agent': 'Chris Pua, <url>',
     'From': 'chris.pua@mail.utoronto.ca'
 }
-
-pages = []
+# TODO: Switch URLS to this -> https://www.espn.com/nba-summer-league/scoreboard
+# TODO: It would have all the games in one page to make life easier 
 url = 'https://www.espn.com/nba/boxscore?gameId=401134820'
 page = requests.get(url, headers = headers)
 soup = BeautifulSoup(page.text, 'html.parser')
